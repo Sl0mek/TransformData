@@ -8,6 +8,11 @@ int main(int argc, char const *argv[]) {
   std::cin >> val;
   std::cout << std::endl << TransformData::DecToBin(val) << std::endl;
   std::bitset<8> bitSet(val);
-  std::cout << std::endl << bitSet << std::endl;
+  int count = 8;
+  for (size_t i = 0; i < count; i++)
+  {
+      std::cout << std::endl  << i << ": " << bitSet[i];
+  }
+  std::cout << std::endl; 
   return 0;
 }
