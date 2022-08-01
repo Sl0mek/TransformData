@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/andrzej/Desktop/DEC_TO_BIN/TransformData.cpp
-TransformData.hpp
-/home/andrzej/Desktop/DEC_TO_BIN/TransformData.hpp
-
 /home/andrzej/Desktop/DEC_TO_BIN/TransformData.hpp
 iostream
 -
@@ -20,5 +16,7 @@ string
 TransformData.hpp
 /home/andrzej/Desktop/DEC_TO_BIN/TransformData.hpp
 iostream
+-
+bitset
 -
 
