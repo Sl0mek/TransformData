@@ -14,5 +14,18 @@ int main(int argc, char const *argv[]) {
       std::cout << std::endl  << i << ": " << bitSet[i];
   }
   std::cout << std::endl; 
+  bitSet = 100;
+  for (size_t i = 0; i < count; i++)
+  {
+      std::cout << std::endl  << i << ": " << bitSet[i];
+  }
+  std::cout << std::endl; 
+  std::bitset<16> bitSet2(1234);
+  count = 16;
+  for (size_t i = 0; i < count; i++)
+  {
+      std::cout << std::endl  << i << ": " << bitSet2[i];
+  }
+  std::cout << std::endl; 
   return 0;
 }
